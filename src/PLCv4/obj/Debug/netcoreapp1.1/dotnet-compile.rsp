@@ -1,5 +1,5 @@
---temp-output:C:\Users\AdrianFerreira\Documents\Visual Studio 2015\Projects\PLCv4\src\PLCv4\obj\Debug\netcoreapp1.1\
---out:C:\Users\AdrianFerreira\Documents\Visual Studio 2015\Projects\PLCv4\src\PLCv4\bin\Debug\netcoreapp1.1\PLCv4.dll
+--temp-output:C:\Users\AdrianFerreira\Source\Repos\Eureka-PLC\src\PLCv4\obj\Debug\netcoreapp1.1\
+--out:C:\Users\AdrianFerreira\Source\Repos\Eureka-PLC\src\PLCv4\bin\Debug\netcoreapp1.1\PLCv4.dll
 --define:DEBUG
 --define:TRACE
 --define:NETCOREAPP1_1
@@ -212,20 +212,28 @@
 --reference:C:\Users\AdrianFerreira\.nuget\packages\System.Threading.Timer\4.3.0\ref\netstandard1.2\System.Threading.Timer.dll
 --reference:C:\Users\AdrianFerreira\.nuget\packages\System.Xml.ReaderWriter\4.3.0\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\AdrianFerreira\.nuget\packages\System.Xml.XDocument\4.3.0\ref\netstandard1.3\System.Xml.XDocument.dll
---resource:"C:\Users\AdrianFerreira\Documents\Visual Studio 2015\Projects\PLCv4\src\PLCv4\obj\Debug\netcoreapp1.1\PLCv4dotnet-compile.deps.json",PLCv4.deps.json
-C:\Users\AdrianFerreira\Documents\Visual Studio 2015\Projects\PLCv4\src\PLCv4\Program.cs
-C:\Users\AdrianFerreira\Documents\Visual Studio 2015\Projects\PLCv4\src\PLCv4\Startup.cs
-C:\Users\AdrianFerreira\Documents\Visual Studio 2015\Projects\PLCv4\src\PLCv4\Code\ModalSize.cs
-C:\Users\AdrianFerreira\Documents\Visual Studio 2015\Projects\PLCv4\src\PLCv4\Controllers\ApplicationRoleController.cs
-C:\Users\AdrianFerreira\Documents\Visual Studio 2015\Projects\PLCv4\src\PLCv4\Controllers\HomeController.cs
-C:\Users\AdrianFerreira\Documents\Visual Studio 2015\Projects\PLCv4\src\PLCv4\Migrations\20170503090342_migra2.cs
-C:\Users\AdrianFerreira\Documents\Visual Studio 2015\Projects\PLCv4\src\PLCv4\Migrations\20170503090342_migra2.Designer.cs
-C:\Users\AdrianFerreira\Documents\Visual Studio 2015\Projects\PLCv4\src\PLCv4\Migrations\ApplicationDbContextModelSnapshot.cs
-C:\Users\AdrianFerreira\Documents\Visual Studio 2015\Projects\PLCv4\src\PLCv4\Models\ApplicationDbContext.cs
-C:\Users\AdrianFerreira\Documents\Visual Studio 2015\Projects\PLCv4\src\PLCv4\Models\ApplicationRole.cs
-C:\Users\AdrianFerreira\Documents\Visual Studio 2015\Projects\PLCv4\src\PLCv4\Models\ApplicationRoleListViewModel.cs
-C:\Users\AdrianFerreira\Documents\Visual Studio 2015\Projects\PLCv4\src\PLCv4\Models\ApplicationRoleViewModel.cs
-C:\Users\AdrianFerreira\Documents\Visual Studio 2015\Projects\PLCv4\src\PLCv4\Models\ApplicationUser.cs
-C:\Users\AdrianFerreira\Documents\Visual Studio 2015\Projects\PLCv4\src\PLCv4\Models\BootstrapModel.cs
-C:\Users\AdrianFerreira\Documents\Visual Studio 2015\Projects\PLCv4\src\PLCv4\Models\ModalFooter.cs
-C:\Users\AdrianFerreira\Documents\Visual Studio 2015\Projects\PLCv4\src\PLCv4\Models\ModalHeader.cs
+--resource:"C:\Users\AdrianFerreira\Source\Repos\Eureka-PLC\src\PLCv4\obj\Debug\netcoreapp1.1\PLCv4dotnet-compile.deps.json",PLCv4.deps.json
+C:\Users\AdrianFerreira\Source\Repos\Eureka-PLC\src\PLCv4\Program.cs
+C:\Users\AdrianFerreira\Source\Repos\Eureka-PLC\src\PLCv4\Startup.cs
+C:\Users\AdrianFerreira\Source\Repos\Eureka-PLC\src\PLCv4\Code\ModalSize.cs
+C:\Users\AdrianFerreira\Source\Repos\Eureka-PLC\src\PLCv4\Controllers\AccountController.cs
+C:\Users\AdrianFerreira\Source\Repos\Eureka-PLC\src\PLCv4\Controllers\ApplicationRoleController.cs
+C:\Users\AdrianFerreira\Source\Repos\Eureka-PLC\src\PLCv4\Controllers\HomeController.cs
+C:\Users\AdrianFerreira\Source\Repos\Eureka-PLC\src\PLCv4\Controllers\UserController.cs
+C:\Users\AdrianFerreira\Source\Repos\Eureka-PLC\src\PLCv4\Migrations\20170503090342_migra2.cs
+C:\Users\AdrianFerreira\Source\Repos\Eureka-PLC\src\PLCv4\Migrations\20170503090342_migra2.Designer.cs
+C:\Users\AdrianFerreira\Source\Repos\Eureka-PLC\src\PLCv4\Migrations\20170503115448_mg3.cs
+C:\Users\AdrianFerreira\Source\Repos\Eureka-PLC\src\PLCv4\Migrations\20170503115448_mg3.Designer.cs
+C:\Users\AdrianFerreira\Source\Repos\Eureka-PLC\src\PLCv4\Migrations\ApplicationDbContextModelSnapshot.cs
+C:\Users\AdrianFerreira\Source\Repos\Eureka-PLC\src\PLCv4\Models\ApplicationDbContext.cs
+C:\Users\AdrianFerreira\Source\Repos\Eureka-PLC\src\PLCv4\Models\ApplicationRole.cs
+C:\Users\AdrianFerreira\Source\Repos\Eureka-PLC\src\PLCv4\Models\ApplicationRoleListViewModel.cs
+C:\Users\AdrianFerreira\Source\Repos\Eureka-PLC\src\PLCv4\Models\ApplicationRoleViewModel.cs
+C:\Users\AdrianFerreira\Source\Repos\Eureka-PLC\src\PLCv4\Models\BootstrapModel.cs
+C:\Users\AdrianFerreira\Source\Repos\Eureka-PLC\src\PLCv4\Models\EditUserViewModel.cs
+C:\Users\AdrianFerreira\Source\Repos\Eureka-PLC\src\PLCv4\Models\LoginViewModel.cs
+C:\Users\AdrianFerreira\Source\Repos\Eureka-PLC\src\PLCv4\Models\ModalFooter.cs
+C:\Users\AdrianFerreira\Source\Repos\Eureka-PLC\src\PLCv4\Models\ModalHeader.cs
+C:\Users\AdrianFerreira\Source\Repos\Eureka-PLC\src\PLCv4\Models\UserListViewModel.cs
+C:\Users\AdrianFerreira\Source\Repos\Eureka-PLC\src\PLCv4\Models\Utilizador.cs
+C:\Users\AdrianFerreira\Source\Repos\Eureka-PLC\src\PLCv4\Models\UtilizadorViewModel.cs

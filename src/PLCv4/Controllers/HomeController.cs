@@ -3,15 +3,31 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
+using PLCv4.Models;
 
 namespace PLCv4.Controllers
 {
+    [Authorize]
     public class HomeController : Controller
     {
+        private readonly UserManager<Utilizador> userManager;
+
+        public HomeController(UserManager<Utilizador> userManager)
+        {
+            this.userManager = userManager;
+        }
+
+
+        [Authorize(Roles = "User")]
         public IActionResult Index()
         {
-            return View();
+            string userName = userManager.GetUserName(User);
+            return View("Index", userName);
         }
+
+        [AllowAnonymous]
 
         public IActionResult About()
         {
@@ -20,6 +36,7 @@ namespace PLCv4.Controllers
             return View();
         }
 
+        [AllowAnonymous]
         public IActionResult Contact()
         {
             ViewData["Message"] = "Your contact page.";

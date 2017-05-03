@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PLCv4.Models
 {
-    public class ApplicationUser : IdentityUser
+    public class Utilizador : IdentityUser
     {
         public string Name { get; set; }
     }

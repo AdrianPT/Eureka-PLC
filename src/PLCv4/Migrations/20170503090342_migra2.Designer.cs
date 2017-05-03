@@ -130,7 +130,7 @@ namespace PLCv4.Migrations
                     b.ToTable("AspNetRoles");
                 });
 
-            modelBuilder.Entity("PLCv4.Models.ApplicationUser", b =>
+            modelBuilder.Entity("PLCv4.Models.Utilizador", b =>
                 {
                     b.Property<string>("Id")
                         .ValueGeneratedOnAdd();
@@ -192,7 +192,7 @@ namespace PLCv4.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserClaim<string>", b =>
                 {
-                    b.HasOne("PLCv4.Models.ApplicationUser")
+                    b.HasOne("PLCv4.Models.Utilizador")
                         .WithMany("Claims")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade);
@@ -200,7 +200,7 @@ namespace PLCv4.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserLogin<string>", b =>
                 {
-                    b.HasOne("PLCv4.Models.ApplicationUser")
+                    b.HasOne("PLCv4.Models.Utilizador")
                         .WithMany("Logins")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade);
@@ -213,7 +213,7 @@ namespace PLCv4.Migrations
                         .HasForeignKey("RoleId")
                         .OnDelete(DeleteBehavior.Cascade);
 
-                    b.HasOne("PLCv4.Models.ApplicationUser")
+                    b.HasOne("PLCv4.Models.Utilizador")
                         .WithMany("Roles")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade);
