@@ -20,7 +20,8 @@ namespace PLCv4.Controllers
         }
 
 
-        [Authorize(Roles = "User")]
+        [Authorize(Roles = "Operador")]
+ 
         public IActionResult Index()
         {
             string userName = userManager.GetUserName(User);

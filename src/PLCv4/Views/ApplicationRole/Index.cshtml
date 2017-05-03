@@ -4,11 +4,11 @@
 
 <div class="top-buffer"></div>
 <div class="panel panel-primary">
-    <div class="panel-heading panel-head">Application Roles</div>
+    <div class="panel-heading panel-head">Funções registadas</div>
     <div class="panel-body">
         <div class="btn-group">
             <a id="createRoleModal" data-toggle="modal" asp-action="AddEditApplicationRole" data-target="#modal-action-application-role" class="btn btn-primary">
-                <i class="glyphicon glyphicon-plus"></i>  Add Role
+                <i class="glyphicon glyphicon-plus"></i>  Adicionar Função
             </a>
         </div>
         <div class="top-buffer"></div>
@@ -31,12 +31,12 @@
                         <td>
                             <a id="addEditApplicationRoleModal" data-toggle="modal" asp-action="AddEditApplicationRole" asp-route-id="@item.Id" data-target="#modal-action-application-role"
                                class="btn btn-info">
-                                <i class="glyphicon glyphicon-pencil"></i>  Edit
+                                <i class="glyphicon glyphicon-pencil"></i>  Editar
                             </a>
                             @if (item.NumberOfUsers == 0)
                             {
                                 <a id="deleteApplicationRoleModal" data-toggle="modal" asp-action="DeleteApplicationRole" asp-route-id="@item.Id" data-target="#modal-action-application-role" class="btn btn-danger">
-                                    <i class="glyphicon glyphicon-trash"></i>  Delete
+                                    <i class="glyphicon glyphicon-trash"></i>  Eliminar
                                 </a>
                             }
                         </td>

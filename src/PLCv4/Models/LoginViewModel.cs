@@ -9,11 +9,13 @@ namespace PLCv4.Models
     public class LoginViewModel
     {
         [Required]
+        [Display(Name = "Utilizador")]
         public string UserName { get; set; }
         [Required]
         [DataType(DataType.Password)]
+        [Display(Name = "Palavra passe")]
         public string Password { get; set; }
-        [Display(Name = "Remember me?")]
+        [Display(Name = "Lembrar-me?")]
         public bool RememberMe { get; set; }
     }
 }

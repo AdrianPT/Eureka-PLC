@@ -45,7 +45,7 @@ namespace PLCv4.Controllers
                 }
                 else
                 {
-                    ModelState.AddModelError(string.Empty, "Invalid login attempt.");
+                    ModelState.AddModelError(string.Empty, "O login falhou. Por favor, tente novamente. Obrigado.");
                     return View(model);
                 }
             }
