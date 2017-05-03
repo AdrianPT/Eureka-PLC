@@ -158,7 +158,7 @@ namespace PLCV4.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> DeleteUser(string id, FormCollection form)
+        public async Task<IActionResult> DeleteUser(string id, IFormCollection form)
         {
             if (!String.IsNullOrEmpty(id))
             {
