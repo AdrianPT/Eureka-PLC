@@ -27,19 +27,20 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">Curso006</a>
+                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand"><img src="~/images/logo_42px_42px.png" alt="logo" height="42" width="42" border="0"></a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li><a asp-area="" asp-controller="Home" asp-action="Index">Home page</a></li>
                     <li><a asp-area="" asp-controller="ApplicationRole" asp-action="Index">Funções</a></li>
                     <li><a asp-area="" asp-controller="User" asp-action="Index">Utilizadores</a></li>
                     <li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
                     <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
                 </ul>
+                @await Html.PartialAsync("_UserHeader")
             </div>
         </div>
     </div>
+ 
     <div class="container body-content">
         @RenderBody()
         <hr />
