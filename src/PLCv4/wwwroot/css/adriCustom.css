@@ -1,0 +1,19 @@
+﻿/*
+
+
+.navbar{
+    min-height: 70px;
+    margin-bottom: 20px;
+}
+
+
+*/
+/* Hay un merge implicito junto a site.css y se crea un solo minify */
+.navbar{
+    min-height: 70px;
+    margin-bottom: 20px;
+}
+
+
+
+
