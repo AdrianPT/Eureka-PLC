@@ -33,7 +33,7 @@ namespace PLCv4
             // [1] PC-ADRIAN
             // [2] VERITATIS
             services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlServer(Configuration.GetConnectionString("VERITATIS")));
+                options.UseSqlServer(Configuration.GetConnectionString("PC2-ADRIAN")));
 
             services.AddIdentity<Utilizador, ApplicationRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>()
