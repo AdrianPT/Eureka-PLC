@@ -47,6 +47,7 @@ namespace PLCv4.Controllers
 
         public IActionResult Error()
         {
+           
             return View();
         }
     }

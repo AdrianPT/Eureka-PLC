@@ -33,7 +33,7 @@ namespace PLCv4
             // [1] PC-ADRIAN
             // [2] VERITATIS
             services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlServer(Configuration.GetConnectionString("PC2-ADRIAN")));
+                options.UseSqlServer(Configuration.GetConnectionString("PC2-ADRIANSQL")));
 
             services.AddIdentity<Utilizador, ApplicationRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>()
@@ -61,6 +61,17 @@ namespace PLCv4
             }
 
             app.UseStaticFiles();
+
+
+            /*
+            app.UseStaticFiles(); // For the wwwroot folder
+
+            app.UseStaticFiles(new StaticFileOptions()
+            {
+                FileProvider = new PhysicalFileProvider(
+                    Path.Combine(Directory.GetCurrentDirectory(), @"MyStaticFiles")),
+                RequestPath = new PathString("/StaticFiles")
+            });*/
 
             app.UseIdentity();
 
