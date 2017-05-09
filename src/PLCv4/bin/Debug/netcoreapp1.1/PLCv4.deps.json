@@ -4200,7 +4200,7 @@
     "System.Interactive.Async/3.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-iyrgkZz9Dzm0fiPouQszFC3SO/46k6AYd/jG9bu+/o0AoDMaRXtlo3TIuWVNtOuJFd1noL963QouroJ0T3rImw=="
+      "sha512": "sha512-UEM+WmG1Oq0bNbPx/E1jaIQ83QOrPfVDUyuYBtG6D6DpB77ytv9flPterMujumpHuoRjSc0ilSB8w41fQc05dw=="
     },
     "System.IO.Pipes/4.3.0": {
       "type": "package",
@@ -4235,27 +4235,27 @@
     "Libuv/1.9.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-t307Z6zIJFk+cBc6qh1z5/JPsjr4V7Fx4WNTdlbz/6TFAddrPssVfg5C5SqCgzStg5PSqVdNIt3JJEeMlAt5Eg=="
+      "sha512": "sha512-uqX2Frwf9PW8MaY7PRNY6HM5BpW1D8oj1EdqzrmbEFD5nH63Yat3aEjN/tws6Tw6Fk7LwmLBvtUh32tTeTaHiA=="
     },
     "Microsoft.CodeAnalysis.Analyzers/1.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-MmoeWVxneeHJDfoNuV6Qh07WiQD2kyYZsdNdMU4I1jijIjEmMLTDepvH47ZM5+2KLN5dP0e89JZd8R/DcMoN6w=="
+      "sha512": "sha512-HS3iRWZKcUw/8eZ/08GXKY2Bn7xNzQPzf8gRPHGSowX7u7XXu9i9YEaBeBNKUXWfI7qjvT2zXtLUvbN0hds8vg=="
     },
     "Microsoft.CodeAnalysis.Common/1.3.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-UMR2TUr60Kxfl/7YbqwL/tXtRtpgRBmgYV3GgcGHWP7GDIiyiTflk9azsmiiFjXV+sgP09LHE0G3C/ilOUISVA=="
+      "sha512": "sha512-V09G35cs0CT1C4Dr1IEOh8IGfnWALEVAOO5JXsqagxXwmYR012TlorQ+vx2eXxfZRKs3gAS/r92gN9kRBLba5A=="
     },
     "Microsoft.CodeAnalysis.CSharp/1.3.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-B12nyB31TQPTqsLCx3hAAmLnNSb6w0+cuGT0opSldL5wjQBVRPMZrhha6gjc07k6uVfRJ5yyBEydG2u+iew/Bw=="
+      "sha512": "sha512-BgWDIAbSFsHuGeLSn/rljLi51nXqkSo4DZ0qEIrHyPVasrhxEVq7aV8KKZ3HEfSFB+GIhBmOogE+mlOLYg19eg=="
     },
     "Microsoft.CodeAnalysis.VisualBasic/1.3.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-/kQfD047i4Cn0nQw/wJo3csy7gCoHqmfHb7zVSmSzOXmNcChFVjcIiyCipS/ZBbFOhQc8MQHzLK23d+8kBXoDw=="
+      "sha512": "sha512-Sf3k8PkTkWqBmXnnblJbvb7ewO6mJzX6WO2t7m04BmOY5qBq6yhhyXnn/BMM+QCec3Arw3X35Zd8f9eBql0qgg=="
     },
     "Microsoft.CSharp/4.3.0": {
       "type": "package",
@@ -4310,7 +4310,7 @@
     "Microsoft.NETCore.Windows.ApiSets/1.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-oDXtKudJsfCVByhIPknTQT/HRcZCBa78We4wji3JEk7wjFQ1N9n6T5zU5lnrg8h1zc+1oMVQrfEFCQLFOfctGw=="
+      "sha512": "sha512-SaToCvvsGMxTgtLv/BrFQ5IFMPRE1zpWbnqbpwykJa8W5XiX82CXI6K2o7yf5xS7EP6t/JzFLV0SIDuWpvBZVw=="
     },
     "Microsoft.VisualBasic/10.1.0": {
       "type": "package",
@@ -4470,7 +4470,7 @@
     "System.Diagnostics.FileVersionInfo/4.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-2nUSa+e/3UtAfkOcpkjpr5gGxZm27qiVv3svIr0/BpT/oO4h8tvmw7yE8Z5OnebdogSZO6LmxuTlz/Sx97JgoQ=="
+      "sha512": "sha512-qjF74OTAU+mRhLaL4YSfiWy3vj6T3AOz8AW37l5zCwfbBfj0k7E94XnEsRaf2TnhE/7QaV6Hvqakoy2LoV8MVg=="
     },
     "System.Diagnostics.Process/4.3.0": {
       "type": "package",
@@ -4825,17 +4825,17 @@
     "System.Xml.XmlDocument/4.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-8edz0yipeyhmoEsWC0p14oPyC40A2eaIumM0vPm+2Y/GQJO3q1Z0xyx+l7UgpKlRA5QDS+l1tMZL5QngVEaN5A=="
+      "sha512": "sha512-2eZu6IP+etFVBBFUFzw2w6J21DqIN5eL9Y8r8JfJWUmV28Z5P0SNU01oCisVHQgHsDhHPnmq2s1hJrJCFZWloQ=="
     },
     "System.Xml.XPath/4.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-PfHnKsFqUQGZZFSyCvPdF1r6UN+S0sKC2RCT7IuxftuSPAirLuics2QpC1WAjycEx0qQlG6CMIydk50KCE9SyQ=="
+      "sha512": "sha512-UWd1H+1IJ9Wlq5nognZ/XJdyj8qPE4XufBUkAW59ijsCPjZkZe0MUzKKJFBr+ZWBe5Wq1u1d5f2CYgE93uH7DA=="
     },
     "System.Xml.XPath.XDocument/4.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-j21EXX31vF+MvLNKcLKbxbl6onLsc08bA3MxsOyR+fR2kHE4xTgzRmst6ZaqmSAsrhdmg8rPZ0Mq26j+0nPp6Q=="
+      "sha512": "sha512-FLhdYJx4331oGovQypQ8JIw2kEmNzCsjVOVYY/16kZTUoquZG85oVn7yUhBE2OZt1yGPSXAL0HTEfzjlbNpM7Q=="
     }
   }
 }
